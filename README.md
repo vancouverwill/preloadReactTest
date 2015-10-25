@@ -18,3 +18,9 @@ when all the files are ready start the program with
 `
 php server.php
 `
+
+then you can reach it in the browser at
+
+`http://localhost:3000/`
+
+I set the port to 3000 but you can use whatever you like

@@ -4,7 +4,7 @@ var React = require('react');
 
 
 
-var Container = React.createClass({
+var SimpleTestClass = React.createClass({
             getInitialState: function() {
               return {
  
@@ -36,10 +36,7 @@ var Container = React.createClass({
           var loadingIndicator = (<div>Loading...</div>)
           var images = ["images/brazil1.jpg","images/brazil2.jpg"];
 
-          var container = <Container />
-
           var Preload = require('react-preload').Preload; 
-          // var Preload = require('react-preload'); 
 
           return (
             <Preload
@@ -51,11 +48,12 @@ var Container = React.createClass({
               resolveOnError={true}
               mountChildren={true}
               >
-                <Container />
+                <SimpleTestClass />
             </Preload>
             )
         }
       });
+
 
 
 
@@ -64,9 +62,3 @@ var Container = React.createClass({
           ,
         document.getElementById('container')
       );
-
-
-//   React.render(
-//     <h1>Hello, world!</h1>,
-//     document.getElementById('container')
-// );
