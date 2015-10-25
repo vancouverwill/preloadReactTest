@@ -1,0 +1,16 @@
+{
+  "name": "react-portfolio",
+  "version": "0.0.0",
+  "description": "Code from the React portfolio.",
+  "main": "server.js",
+  "dependencies": {
+    "classnames": "*",
+    "react": "^0.13.0",
+    "react-tools": "*",
+    "react-preload": "^0.2.2"
+    },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "watchify": "^3.4.0"
+  }
+}
